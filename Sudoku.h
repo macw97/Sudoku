@@ -22,7 +22,6 @@
 using namespace std;
 typedef vector <vector <int> > SudokuGrid;
 
-int myrandom(int i);
 void PlaceCursor(const int x, const int y);
 
 class Sudoku
