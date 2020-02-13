@@ -1,8 +1,5 @@
 #include "Sudoku.h"
-int myrandom(int i) {
-	srand(time(NULL) ^ clock());
-	return rand() % i;
-}
+
 void PlaceCursor(const int x, const int y) {
 	//My random generator for random shuffle
 
